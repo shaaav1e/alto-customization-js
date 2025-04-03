@@ -2,5 +2,16 @@
   "rewrites": [{ "source": "/(.*)", "destination": "/" }],
   "buildCommand": "",
   "installCommand": "",
-  "outputDirectory": "."
+  "outputDirectory": ".",
+  "headers": [
+    {
+      "source": "/(.*)\\.css",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/css"
+        }
+      ]
+    }
+  ]
 }
