@@ -14,3 +14,26 @@ body {
 {
   transform:scale(1) !important;
 }
+#top-bar
+{
+  transition: transform 0.5s ease-in-out;
+}
+.visible-bar
+{
+  transform: translateY(0);
+}
+.hidden-bar
+{
+  transform: translateY(-100%);
+}
+/* max-w for tesla images */
+.tesla-car-image {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1280px) {
+  .tesla-car-image {
+    max-width: 1280px; /* Caps the maximum width at XL breakpoint */
+  }
+}
