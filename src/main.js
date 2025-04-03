@@ -14,17 +14,17 @@ const interiorImage = document.querySelector("#interior-image");
 
 // Image Mapping
 const exteriorImages = {
-  "Stealth Grey": "/assets/model-y-stealth-grey.jpg",
-  "Pearl White": "/assets/model-y-pearl-white.jpg",
-  "Solid Black": "/assets/model-y-solid-black.jpg",
-  "Ultra Red": "/assets/model-y-ultra-red.jpg",
-  "Quick Silver": "/assets/model-y-quicksilver.jpg",
-  "Metallic Blue": "/assets/model-y-deep-blue-metallic.jpg",
+  "Stealth Grey": "/model-y-stealth-grey.jpg",
+  "Pearl White": "/model-y-pearl-white.jpg",
+  "Solid Black": "/model-y-solid-black.jpg",
+  "Ultra Red": "/model-y-ultra-red.jpg",
+  "Quick Silver": "/model-y-quicksilver.jpg",
+  "Metallic Blue": "/model-y-deep-blue-metallic.jpg",
 };
 
 const interiorImages = {
-  Light: "/assets/model-y-interior-light.jpg",
-  Dark: "/assets/model-y-interior-dark.jpg",
+  Light: "/model-y-interior-light.jpg",
+  Dark: "/model-y-interior-dark.jpg",
 };
 
 // Handle Color Selection - both exterior & interior
