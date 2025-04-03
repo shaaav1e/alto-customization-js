@@ -14,17 +14,17 @@ const interiorImage = document.querySelector("#interior-image");
 
 // Image Mapping
 const exteriorImages = {
-  "Stealth Grey": "/assets/model-y-stealth-grey.jpg",
-  "Pearl White": "/assets/model-y-pearl-white.jpg",
-  "Solid Black": "/assets/model-y-solid-black.jpg",
-  "Ultra Red": "/assets/model-y-ultra-red.jpg",
-  "Quick Silver": "/assets/model-y-quicksilver.jpg",
-  "Metallic Blue": "/assets/model-y-deep-blue-metallic.jpg",
+  "Stealth Grey": "./assets/model-y-stealth-grey.jpg",
+  "Pearl White": "./assets/model-y-pearl-white.jpg",
+  "Solid Black": "./assets/model-y-solid-black.jpg",
+  "Ultra Red": "./assets/model-y-ultra-red.jpg",
+  "Quick Silver": "./assets/model-y-quicksilver.jpg",
+  "Metallic Blue": "./assets/model-y-deep-blue-metallic.jpg",
 };
 
 const interiorImages = {
-  Light: "/assets/model-y-interior-light.jpg",
-  Dark: "/assets/model-y-interior-dark.jpg",
+  Light: "./assets/model-y-interior-light.jpg",
+  Dark: "./assets/model-y-interior-dark.jpg",
 };
 
 // Handle Color Selection - both exterior & interior
@@ -48,7 +48,7 @@ const handleColorButtonClick = (event) => {
     exteriorImage.src = exteriorImages[color];
   }
   // Change Interior Image
-  gi;
+
   if (event.currentTarget === interiorColorSection) {
     const color = button.querySelector("img").alt;
     interiorImage.src = interiorImages[color];
