@@ -20,15 +20,15 @@ const selectedOptions = {
 
 // Image Mapping
 const exteriorImages = {
-  "Quick Silver": "/public/alto-silver.jpg",
-  "Pearl White": "/public/alto-white.jpg",
-  "Solid Black": "/public/alto-black.jpg",
+  "Quick Silver": "/alto-silver.jpg",
+  "Pearl White": "/alto-white.jpg",
+  "Solid Black": "/alto-black.jpg",
 };
 
-const interiorImages = {
-  Light: "/model-y-interior-light.jpg",
-  Dark: "/model-y-interior-dark.jpg",
-};
+// const interiorImages = {
+//   Light: "/model-y-interior-light.jpg",
+//   Dark: "/model-y-interior-dark.jpg",
+// };
 
 // Handle Color Selection - both exterior & interior
 
