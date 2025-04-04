@@ -20,12 +20,9 @@ const selectedOptions = {
 
 // Image Mapping
 const exteriorImages = {
-  "Stealth Grey": "/model-y-stealth-grey.jpg",
-  "Pearl White": "/model-y-pearl-white.jpg",
-  "Solid Black": "/model-y-solid-black.jpg",
-  "Ultra Red": "/model-y-ultra-red.jpg",
-  "Quick Silver": "/model-y-quicksilver.jpg",
-  "Metallic Blue": "/model-y-deep-blue-metallic.jpg",
+  "Quick Silver": "/public/alto-silver.jpg",
+  "Pearl White": "/public/alto-white.jpg",
+  "Solid Black": "/public/alto-black.jpg",
 };
 
 const interiorImages = {
@@ -60,6 +57,13 @@ const handleColorButtonClick = (event) => {
     interiorImage.src = interiorImages[color];
   }
   // console.log(event.target);
+};
+
+// Update exterior image - based on colors & wheels
+const updateExteriorImage = () => {
+  const perfomanceSuffix = selectedOptions["Perfomance Wheels"]
+    ? "-performance"
+    : "";
 };
 
 // Wheel Selection
