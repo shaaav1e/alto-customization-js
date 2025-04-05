@@ -21,4 +21,4 @@ npm install
 npm run dev
 ```
 
-### [Live Demo <-] (https://alto-customization-js.vercel.app/)
+### [Live Demo <-](https://alto-customization-js.vercel.app/)
